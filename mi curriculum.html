@@ -8,99 +8,300 @@
     <link rel="stylesheet" href="assets/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 </head>
 
-<body class="container-fluid m-0 p-0">
+<body class="container-fluid p-0 m-0 b-0">
 
     <nav class="navbar navbar-expand-lg fondo">
-        <div class="container-fluid row">
-            <div class="col-12">
-                <a class="navbar-brand" href="#">
-                    <img src="https://i.pinimg.com/originals/e5/4d/7f/e54d7f8f10d090e3f45ac6863f534ebf.png" alt="rick"
-                        width="10%" height="10%">
-                </a>
-                <a class="navbar-brand"><img src="assets\rick.png" alt="rick" width="15%" height="10%"></a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://i.pinimg.com/originals/e5/4d/7f/e54d7f8f10d090e3f45ac6863f534ebf.png" alt="rick"
+                    width="15%">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav txttnav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#genio">Genio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">Inventor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Anarquía">Anarquía</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
-    <header class="container-fluid m-0 p-0">
-        <div class="row align-items-center">
-            <ul class="col-6 ">
-
-                <li class="texto fw-normal"> <img width="90%" src="assets\loco.png" alt="rick" class="m-4">Rick Sánchez
-                    es un antihéroe científico de dimensiones colosales, un genio
-                    autodestructivo envuelto en un aura de nihilismo y misantropía. Su agudo intelecto, alimentado por
-                    una adicción al alcohol, le permite manipular la realidad a su antojo, creando portales hacia
-                    infinitos universos. Sin embargo, detrás de su fachada de desprecio por la humanidad subyace una
-                    compleja figura marcada por el dolor y la soledad. Su relación con su nieto Morty es un contraste
-                    agudo entre la sabiduría infinita y la inocencia juvenil, formando una dinámica explosiva que
-                    desafía los límites de la ficción televisiva. Con un humor corrosivo y una moral cuestionable, Rick
-                    Sánchez se erige como un símbolo de una generación desencantada, buscando respuestas en los confines
-                    del cosmos mientras ignora las preguntas más fundamentales de la existencia.</li>
+    <header class="container-fluid">
+        <div class="row align-items-center m-4">
+            <ul class="col-6">
+                <img class="ftoo" width="100%" src="assets\loco.png" alt="rick" id="skills">
+                <li class="texto">
+                    "Soy Rick Sánchez, un enigma envuelto en un misterio dentro de un enigma. Un ser superior atrapado
+                    en un cuerpo inferior, condenado a vagar por un universo sin sentido. Pero bueno, al menos tengo mi
+                    portal y un suministro infinito de alcohol.".
+                </li>
             </ul>
-            <img class="col-5 offset-1"
+            <img class="ftooo col-5 offset-1"
                 src="https://www.nicepng.com/png/full/4-46920_rick-and-morty-szechuan-sauce-png-clip-art.png"
                 alt="rick">
         </div>
     </header>
+    <div class="container p-3 ">
+        <section>
+            <h2 class="txtt2 p-3" id="genio">"Diversiones de un dios aburrido"</h2>
+        </section>
+    </div>
 
-    <nav class="container">
-        <ul>
-            <li><a href="#about">Sobre Mí</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#projects">Proyectos</a></li>
-            <li><a href="#contact">Contacto</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2024/03/06/205137_1369293.jpg.1500x843_q95_crop-smart_upscale.jpg"
+                        class="d-block w-100" alt="mi baño">
+                    <div class="carousel-caption d-none d-lg-block">
+                        <<h5 class="txttitulo">"El Trono de la Genialidad: Santuario de Rick Sánchez"</h5>
+                            <p class="txtcr">"Ah, mi baño privado... el proyecto más genial que he hecho, Morty.
+                                Olvídate de
+                                portales interdimensionales y de cambiar la estructura del espacio-tiempo, porque este
+                                baño
+                                es donde la verdadera magia sucede. Cada maldito detalle está diseñado a la perfección,
+                                desde el retrete que analiza tu ADN antes de dejarte usarlo, hasta el sistema de defensa
+                                que
+                                haría que cualquier intruso deseara nunca haber nacido. Es el lugar donde puedo
+                                relajarme,
+                                reflexionar y, sí, también sentarme en el trono de mi propia grandeza. Es un santuario
+                                de
+                                pura genialidad, y nadie, NADIE, lo toca sin mi permiso. Es mi obra maestra, Morty, un
+                                legado que podría dejarle a la humanidad, pero no lo haré porque, francamente, no se lo
+                                merecen."
+                            </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://helios-i.mashable.com/imagery/articles/04b5Pjp3N03vQQuyYLz6XRa/hero-image.fill.size_1248x702.v1623364951.png"
+                        class="d-block w-100" alt="pepinillo rick">
+                    <div class="carousel-caption d-none d-lg-block">
+                        <h5 class="txttitulo">"Pepinillo Rick: La Transformación Suprema"</h5>
+                        <p class="txtcr">"Ah, sí, el día que me convertí en un pepinillo... el día más glorioso de mi
+                            existencia, Morty. ¿Quién más podría convertir la idea de una verdura en una hazaña
+                            científica
+                            de proporciones épicas? Nadie, solo yo. Fue mi escape más ingenioso, una obra maestra de
+                            pura
+                            innovación. Me despojé de mi cuerpo humano solo para demostrar que incluso como un
+                            pepinillo,
+                            soy más inteligente, más letal y más grandioso que cualquier otro ser en el universo. Pasé
+                            de
+                            ser un simple encurtido a un arma mortal, improvisando con ratas y desmantelando un imperio
+                            de
+                            asesinos rusos con nada más que ingenio y una agudeza inigualable. Y todo, Morty, porque soy
+                            Rick, y cuando quiero evitar una terapia familiar aburrida, me convierto en un maldito
+                            pepinillo, y no cualquier pepinillo... Pepinillo Rick!"
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/31bb0a24f021c8703907871e6d78fc4e6012016a89380056171c276135e54c3e.jpg"
+                        class="d-block w-100" alt="soy una pierna">
+                    <div class="carousel-caption d-none d-lg-block">
+                        <h5 class="txttitulo">"Pierna Rick: La Extremidad de la Supervivencia"</h5>
+                        <p class="txtcr">"Ah, la vez que me transformé en pierna... ¡obra maestra de la ingeniería
+                            biológica, Morty! Estaba en medio de una misión interdimensional, y, ¿qué crees? Me quedé
+                            sin un
+                            maldito plan de escape. Así que, ¿qué hice? ¡Convertí mi propia pierna en una entidad
+                            autónoma y
+                            consciente! Ahora, no estamos hablando de una simple extremidad, estamos hablando de una
+                            pierna
+                            con voluntad propia, con la capacidad de patear traseros y salvar mi pellejo. Fue un
+                            despliegue
+                            de pura genialidad, donde incluso mi cuerpo incompleto sigue siendo más funcional y letal
+                            que la
+                            mayoría de las criaturas del multiverso. Nadie más podría pensar en eso, Morty, ¡nadie!"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev position" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next position" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
 
     <main class="container">
+
         <section id="about">
-            <h2>Sobre Mí</h2>
-            <p>Esta es una breve descripción sobre mí.</p>
-        </section>
+            <h2 class="txtt2 p-3">"Trucos baratos para impresionar a los tontos"</h2>
+            <div class="row g-4">
+                <div class="col-4">
+                    <div class="card cardf2 ">
+                        <img src="https://qph.cf2.quoracdn.net/main-qimg-a8061dc12302ea0b314c754bd17baab1-lq"
+                            class="card-img-top" alt="inteligencia">
+                        <div class="card-body">
+                            <h5 class="card-title txtticard">Cerebro de Plutonio</h5>
+                            <p class="card-text txttcard"> Mi cerebro es como una supernova, explotando de ideas y
+                                conexiones
+                                que nadie más entiende. Soy el Einstein, el Da Vinci y el Stephen Hawking del
+                                multiverso, todo en uno, el mejor.
+                            </p>
 
-        <section id="skills">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Habilidad 1</li>
-                <li>Habilidad 2</li>
-                <li>Habilidad 3</li>
-            </ul>
-        </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <div class="card cardf2">
+                        <img src="https://images3.alphacoders.com/127/1278019.jpg" class="card-img-top"
+                            alt="Ingeniería y construcción">
+                        <div class="card-body">
+                            <h5 class="card-title txtticard">MacGyver interdimensional</h5>
+                            <p class="card-text txttcard">Con un poco de chatarra y un montón de conocimiento, puedo
+                                construir cualquier cosa que se te ocurra, desde un arma de rayos láser hasta una nave
+                                espacial para escapar de un planeta carnívoro.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card cardf2">
+                        <img src="https://static.tvtropes.org/pmwiki/pub/images/thats_amorte.png" class="card-img-top"
+                            alt="cocinador rick">
+                        <div class="card-body">
+                            <h5 class="card-title txtticard">Chef de la Galaxia</h5>
+                            <p class="card-text txttcard">No solo puedo salvar el universo, sino que también puedo
+                                cocinar
+                                una cena que te hará olvidar tus problemas. Mis platillos son una fusión de sabores de
+                                todo el cosmos, una verdadera explosión en tu paladar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card cardf2">
+                        <img src="https://sportshub.cbsistatic.com/i/2023/10/17/814c6018-7068-4f22-bd64-ea52b34e6ae2/why-rick-and-morty-replaced-justin-roiland-with-two-new-voice-actors.jpg"
+                            class="card-img-top" alt="Biología y genética">
+                        <div class="card-body">
+                            <h5 class="card-title txtticard"> Doctor Frankenstein</h5>
+                            <p class="card-text txttcard">Juego a ser Dios con el ADN, creando criaturas híbridas más
+                                locas que un cruce entre un gato y un taco. Soy el maestro de la evolución, y puedo
+                                hacer que cualquier organismo se adapte a cualquier ambiente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card cardf2">
+                        <img src="https://i0.wp.com/www.thewrap.com/wp-content/uploads/2017/08/rick-and-morty.png?fit=1872%2C1056&ssl=1"
+                            class="card-img-top" alt="universos paralelo">
+                        <div class="card-body">
+                            <h5 class="card-title txtticard"> Arquitecto del Multiverso</h5>
+                            <p class="card-text txttcard">Tengo la llave de infinitas realidades. Con solo apretar un
+                                botón, puedo crear un nuevo universo o saltar a otro para escapar de mis problemas. Soy
+                                el amo de los portales y el dueño de mi propio destino.</p>
+                        </div>
+                    </div>
+                </div>
 
-        <section id="projects">
-            <h2>Proyectos</h2>
-            <div class="project">
-                <h3>Proyecto 1</h3>
-                <p>Descripción del proyecto 1.</p>
+                <div class="col-4">
+                    <div class="card cardf2">
+                        <img src="https://cdn.mos.cms.futurecdn.net/FS6stCWncoYdQ46Qpugck8-1200-80.jpeg"
+                            class="card-img-top" alt="extraterrestres">
+                        <div class="card-body">
+                            <h5 class="card-title txtticard">Antropólogo extraterrestre</h5>
+                            <p class="card-text txttcard">He conocido
+                                Desde los Groffles hasta los Squanchers, sé más sobre sus costumbres y lenguas que
+                                cualquier lingüista. Soy el Indiana Jones de la galaxia, pero en vez de tesoros busco
+                                conocimiento.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="project">
-                <h3>Proyecto 2</h3>
-                <p>Descripción del proyecto 2.</p>
+        </section>
+
+        
+        <div class="container-fluid p-5 row cct">
+            
+            <h3 class="txtt2 p-3">
+                "El Saludo Sánchez"
+            </h3>
+            <hr class="hrr">
+            <div class="contenedor-imagen divimg col-8">
+                <img src="https://i.blogs.es/cfa26e/rickandmortycabecera/1366_2000.jpg" alt="mi mundo"
+                    style="width: 140%; height: 150%">
+                <div class="texto-overlay img2">
+                    "Inventé un saludo universal, ¿y sabes cuál es? El dedo medio. Sencillo, efectivo y universalmente
+                    comprensible. Todos los seres en mi pequeño universo saben lo que significa: 'Soy el jefe aquí'. ¡Y
+                    vaya que lo soy!"
+                </div>
             </div>
-        </section>
+            <hr class="hrr m-2">
 
-        <section id="contact">
-            <h2>Contacto</h2>
-            <form>
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
 
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+            <div class="container p-3">
+                <section id="Anarquía">
+                    <h2 class="txtt2 p-4 xs">Contacto</h2>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/rick-sanchez-portal-thank-you-kuini-fernandez-transparent.png"
+                                alt="contacto" width="100%">
+                           
+                        </div>
+                        <div class="col-6">
+                            <form>
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" name="name" required>
+                                <label for="email">Correo Electrónico</label>
+                                <input type="email" id="email" name="email" required>
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" required></textarea>
+                                <button type="submit">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-3">
+                            <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/1-rick-sanchez-dedy-three-transparent.png"
+                                alt="contacto" width="100%">
+                        </div>
+                    </div>
+                </section>
+            </div>
     </main>
 
-    <footer class="p-0">
-        <p>© 2024 Nombre del Alumno</p>
+    <video muted autoplay loop>
+        <source src="\assets\rick-1.mp4" type="video/mp4">
+    </video>
+
+
+    <footer class="container-fluid">
+        <p>© 2024 Rick Sanchez</p>
     </footer>
+
+    <script src="assets\funcion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

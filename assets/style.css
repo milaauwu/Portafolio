@@ -1,35 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 header {
     background-image: url(https://i.redd.it/lwwt86ci5anz.jpg);
     color: white;
     text-align: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: rgb(38, 105, 55);
-    text-decoration: none;
-    padding: 14px 20px;
-    display: inline-block;
 }
 
 main {
@@ -37,16 +12,12 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 h2 {
     border-bottom: 2px solid #9efa96;
     padding-bottom: 5px;
-}
-
-.project {
-    margin-bottom: 10px;
 }
 
 form {
@@ -56,31 +27,37 @@ form {
 
 form label {
     margin: 10px 0 5px;
+    color: #6cff17e1;
+    text-shadow: 4px 2px 4px rgb(2, 119, 18);
 }
 
-form input, form textarea {
+form input,
+form textarea {
     padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #f3f3f3;
-    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 2px solid #4eff18;
+    border-radius: 5px;
 }
 
 form button {
-    background-color: #4de46e;
-    color: white;
-    padding: 15px;
+    background-color: #0ff02dc5;
+    color: rgb(255, 255, 255);
+    padding: 14px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #98f7b5;
+    background-color: #ab00eed3;
 }
 
 footer {
-    background-color: #75ff62;
-    color: white;
+    background-image: url(https://i.guim.co.uk/img/media/b563ac5db4b4a4e1197c586bbca3edebca9173cd/0_12_3307_1985/master/3307.jpg?width=1200&quality=85&auto=format&fit=max&s=7543c611e54f684ba5da8700c2ac15d9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(41, 255, 88);
+    text-shadow: 1px 2px 7px rgb(197, 0, 247);
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -88,16 +65,183 @@ footer {
 }
 
 .fondo {
-  background-image: url(https://static.displate.com/brand/layout/3134386d-c57f-4bb8-882e-6c4aee42dd49/headerDesktopStandard.jpg);
-  background-repeat: no-repeat; 
-  background-position: center;
-  background-size: cover;
-  
+    background-image: url(https://static.displate.com/brand/layout/3134386d-c57f-4bb8-882e-6c4aee42dd49/headerDesktopStandard.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
+
+.ftoo {
+    position: relative;
+    top: 90px;
+    left: 10px;
+}
+
 .texto {
-    text-align:justify;
-    padding: 17%;
+    padding: 30%;
     font-size: 15px;
-    color: #cde44d;
-    
+    background: linear-gradient(to right, rgb(33, 255, 3), rgb(234, 28, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Fjalla One", sans-serif;
+    text-align: justify;
+}
+
+.textimg {
+    align-items: start;
+}
+
+
+.txtcr {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fdfdfd;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 7px rgb(0, 0, 0);
+
+}
+
+.txttitulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f7f7f7;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+
+li {
+    list-style: none;
+}
+
+.txtt2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6cff17e1;
+    text-shadow: 4px 2px 4px rgb(195, 11, 252);
+}
+
+
+.txttitulo {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 4px 2px 4px rgb(0, 0, 0);
+}
+
+.cardf2 {
+
+    background-image: url(https://i.pinimg.com/originals/ae/60/30/ae60302306b165c9d2016f22901ab7a2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.90;
+}
+
+.txttcard {
+    font-size: 13px;
+    color: #328618;
+    text-shadow: 1px 1px 0px rgb(132, 51, 179);
+}
+
+.txtticard {
+    font-size: 20px;
+    font-weight: bold;
+    color: #289c0a;
+    text-shadow: 1px 1px 0px rgb(120, 28, 148);
+}
+
+.txttnav {
+    font-size: 15px;
+    color: #000000;
+    text-shadow: 1px 1px 0px rgb(73, 255, 17);
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.divimg {
+
+    position: relative;
+    width: 40%;
+    height: 30%;
+}
+
+.img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 138%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(65, 238, 59);
+    background-color: rgba(0, 0, 0, 0.575);
+    transition: 0.7s ease;
+    font-size: 20px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.hrr {
+    width: 100%;
+    border-top: 4px solid #48ff48;
+
+}
+
+@media (max-width: 768px) {
+
+    .container,
+    .g-4 {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 340%;
+
+    }
+
+    .texto {
+        visibility: hidden;
+
+    }
+
+    .img2 {
+        font-size: 14px;
+    }
+
+    .ftoo {
+        width: 200%;
+        
+    }
+    .txttitulo{
+        visibility: visible;
+    }
+    .txtt2{
+       font-size: 25px;
+    }
 }
