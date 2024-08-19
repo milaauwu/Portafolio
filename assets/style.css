@@ -5,9 +5,12 @@ body {
 }
 
 header {
-    background-color: #68d459;
+    background-image: url(https://i.redd.it/lwwt86ci5anz.jpg);
     color: white;
     text-align: center;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -85,8 +88,16 @@ footer {
 }
 
 .fondo {
-  background-image: url(https://i.pinimg.com/564x/ca/33/a1/ca33a12718d8930a975bf0f98d86ad3b.jpg);
+  background-image: url(https://static.displate.com/brand/layout/3134386d-c57f-4bb8-882e-6c4aee42dd49/headerDesktopStandard.jpg);
   background-repeat: no-repeat; 
   background-position: center;
-  background-size: 100% 90%;
+  background-size: cover;
+  
+}
+.texto {
+    text-align:justify;
+    padding: 17%;
+    font-size: 15px;
+    color: #cde44d;
+    
 }
