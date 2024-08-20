@@ -26,17 +26,17 @@ form {
 }
 
 form label {
-    margin: 10px 0 5px;
-    color: #6cff17e1;
-    text-shadow: 4px 2px 4px rgb(2, 119, 18);
+    margin: 16px 0 16px;
+    color: #5eff00;
+    text-shadow: 2px 1px 0px rgb(247, 8, 255);
 }
 
 form input,
 form textarea {
     padding: 10px;
     margin-bottom: 15px;
-    border: 2px solid #4eff18;
-    border-radius: 5px;
+    border: 3px solid #ec18ff63;
+    border-radius: 10px;
 }
 
 form button {
@@ -56,12 +56,13 @@ footer {
     background-image: url(https://i.guim.co.uk/img/media/b563ac5db4b4a4e1197c586bbca3edebca9173cd/0_12_3307_1985/master/3307.jpg?width=1200&quality=85&auto=format&fit=max&s=7543c611e54f684ba5da8700c2ac15d9);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(41, 255, 88);
-    text-shadow: 1px 2px 7px rgb(197, 0, 247);
+    color: rgb(7, 255, 61);
+    text-shadow: 1px 1px 2px rgb(197, 0, 247);
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    letter-spacing: 4px
 }
 
 .fondo {
@@ -81,9 +82,7 @@ footer {
 .texto {
     padding: 30%;
     font-size: 15px;
-    background: linear-gradient(to right, rgb(33, 255, 3), rgb(234, 28, 253));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #3cff0057;
     font-family: "Fjalla One", sans-serif;
     text-align: justify;
 }
@@ -94,21 +93,20 @@ footer {
 
 
 .txtcr {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
-    color: #fdfdfd;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 2px 7px rgb(0, 0, 0);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
 
 }
 
 .txttitulo {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    color: #f7f7f7;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: #ffffff;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
-
 
 
 video {
@@ -135,13 +133,6 @@ li {
     text-shadow: 4px 2px 4px rgb(195, 11, 252);
 }
 
-
-.txttitulo {
-    font-size: 15px;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 4px 2px 4px rgb(0, 0, 0);
-}
 
 .cardf2 {
 
@@ -201,7 +192,7 @@ li {
     font-weight: bold;
     color: rgb(65, 238, 59);
     background-color: rgba(0, 0, 0, 0.575);
-    transition: 0.7s ease;
+    transition: 0.8s ease;
     font-size: 20px;
     text-align: center;
     pointer-events: none;
@@ -209,7 +200,7 @@ li {
 
 .hrr {
     width: 100%;
-    border-top: 4px solid #48ff48;
+    border-top: 5px solid #9c07ff;
 
 }
 
@@ -236,12 +227,25 @@ li {
 
     .ftoo {
         width: 200%;
-        
+
     }
-    .txttitulo{
+
+    .txttitulo {
         visibility: visible;
     }
-    .txtt2{
-       font-size: 25px;
+
+    .txtt2 {
+        font-size: 25px;
+    }
+
+    .txtcr {
+        visibility: hidden;
+    }
+
+    .txttitulo {
+        position: absolute;
+        top: 70%;
+        left: 20%;
+        transform: translate(-10%, -10%);
     }
 }
