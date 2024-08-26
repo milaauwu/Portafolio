@@ -237,6 +237,7 @@ li {
 
     .txttitulo {
         visibility: visible;
+        font-size: 15px;
     }
 
     .txtt2 {
