@@ -198,6 +198,11 @@ li {
     pointer-events: none;
 }
 
+.saludorick {
+    width: 140%;
+    height: 150%
+}
+
 .hrr {
     width: 100%;
     border-top: 5px solid #9c07ff;
@@ -247,5 +252,17 @@ li {
         top: 70%;
         left: 20%;
         transform: translate(-10%, -10%);
+    }
+    .saludorick {
+        width: 195%;
+    }
+    .img2
+    {
+        width: 185%;
+    }
+    .inputt{
+        padding: 8px;
+        margin-bottom: 10px;
+        width: 140%;
     }
 }
